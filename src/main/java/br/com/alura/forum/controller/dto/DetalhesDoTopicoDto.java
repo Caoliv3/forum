@@ -30,4 +30,5 @@ public class DetalhesDoTopicoDto {
 		this.respostas = new ArrayList<>();
 		this.respostas.addAll(topico.getRespostas().stream().map(RespostaDto::new).collect(Collectors.toList()));
 	}
+	
 }

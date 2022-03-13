@@ -19,7 +19,5 @@ public class RespostaDto {
 		this.dataCriacao = resposta.getDataCriacao();
 		this.nomeAutor = resposta.getAutor().getNome();
 	}
-
-
 	
 }
